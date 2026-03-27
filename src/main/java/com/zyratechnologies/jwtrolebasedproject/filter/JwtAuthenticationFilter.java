@@ -50,9 +50,5 @@ if(jwtService.validateToken(token,userDetails)){
         filterChain.doFilter(request,response);
 
 
-
-
-
-
     }
 }
