@@ -1,4 +1,4 @@
-package com.zyratechnologies.jwtrolebasedproject.config;
+package com.zyratechnologies.jwtrolebasedproject.configs;
 
 import com.zyratechnologies.jwtrolebasedproject.filter.JwtAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
