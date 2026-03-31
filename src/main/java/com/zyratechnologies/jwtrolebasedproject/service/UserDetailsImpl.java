@@ -2,7 +2,6 @@ package com.zyratechnologies.jwtrolebasedproject.service;
 
 import com.zyratechnologies.jwtrolebasedproject.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.webmvc.autoconfigure.error.AbstractErrorController;;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -16,8 +15,7 @@ import java.util.List;
 public class UserDetailsImpl implements UserDetailsService {
     @Autowired
     private  UserRepository userRepository;
-    @Autowired
-    private AbstractErrorController abstractErrorController;
+
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
